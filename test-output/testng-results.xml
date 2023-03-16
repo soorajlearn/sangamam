@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-10T08:57:04 IST" name="Suite" finished-at="2023-03-10T08:57:22 IST" duration-ms="17776">
+    <groups>
+    </groups>
+    <test started-at="2023-03-10T08:57:04 IST" name="Test" finished-at="2023-03-10T08:57:22 IST" duration-ms="17776">
+      <class name="tests.TC003_CreateLead">
+        <test-method is-config="true" signature="startReport(java.lang.String)[pri:0, instance:tests.TC003_CreateLead@3688eb5b]" started-at="2023-03-10T08:57:04 IST" name="startReport" finished-at="2023-03-10T08:57:04 IST" duration-ms="109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setData()[pri:0, instance:tests.TC003_CreateLead@3688eb5b]" started-at="2023-03-10T08:57:04 IST" name="setData" finished-at="2023-03-10T08:57:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:tests.TC003_CreateLead@3688eb5b]" started-at="2023-03-10T08:57:04 IST" name="springTestContextBeforeTestClass" finished-at="2023-03-10T08:57:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:tests.TC003_CreateLead@3688eb5b]" started-at="2023-03-10T08:57:04 IST" name="springTestContextPrepareTestInstance" finished-at="2023-03-10T08:57:04 IST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="report()[pri:0, instance:tests.TC003_CreateLead@3688eb5b]" started-at="2023-03-10T08:57:04 IST" name="report" finished-at="2023-03-10T08:57:04 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:tests.TC003_CreateLead@3688eb5b]" started-at="2023-03-10T08:57:04 IST" name="springTestContextBeforeTestMethod" finished-at="2023-03-10T08:57:04 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC003_CreateLead.createLead()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TC003_CreateLead@3688eb5b]" started-at="2023-03-10T08:57:04 IST" name="beforeMethod" finished-at="2023-03-10T08:57:10 IST" duration-ms="5558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createLead()[pri:0, instance:tests.TC003_CreateLead@3688eb5b]" started-at="2023-03-10T08:57:10 IST" name="createLead" finished-at="2023-03-10T08:57:22 IST" duration-ms="11723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TC003_CreateLead@3688eb5b]" started-at="2023-03-10T08:57:22 IST" name="afterMethod" finished-at="2023-03-10T08:57:22 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:tests.TC003_CreateLead@3688eb5b]" started-at="2023-03-10T08:57:22 IST" name="springTestContextAfterTestMethod" finished-at="2023-03-10T08:57:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC003_CreateLead.createLead()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:tests.TC003_CreateLead@3688eb5b]" started-at="2023-03-10T08:57:22 IST" name="springTestContextAfterTestClass" finished-at="2023-03-10T08:57:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:tests.TC003_CreateLead@3688eb5b]" started-at="2023-03-10T08:57:27 IST" name="stopReport" finished-at="2023-03-10T08:57:27 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- tests.TC003_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
